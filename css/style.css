@@ -7,9 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -17,13 +14,12 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 .hero-container {
-  background: rgba(0, 0, 0, .2);
   font-size: 5rem;
-  padding: 1rem;
-  border-radius: 10px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
